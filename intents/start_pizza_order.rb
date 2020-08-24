@@ -1,4 +1,4 @@
-require 'lib/pizza'
+require './intents/lib/pizza'
 require 'active_support/core_ext/array/conversions'
 
 intent "StartPizzaOrder" do

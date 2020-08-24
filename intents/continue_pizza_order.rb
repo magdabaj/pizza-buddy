@@ -1,4 +1,4 @@
-require 'lib/pizza'
+require './intents/lib/pizza'
 
 intent "ContinuePizzaOrder" do
   size = request.slot_value("size")
